@@ -1,6 +1,17 @@
+# islam_victoria
+The codes of the paper Research of Localization with Laser Scan and Iterative Bayesian Strategy
+
+**The bibtex of this paper is :**</br>
+@article{许亚芳2015基于激光扫描和迭代贝叶斯策略的定位研究,</br>
+  title={基于激光扫描和迭代贝叶斯策略的定位研究},</br>
+  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
+  journal={计算机工程与设计},</br>
+  year={2015}</br>
+}
+
 # About the project
 ```
-Run the script "run.m", and you can see the demo of EKF-SLAM or IEKF-SLAM on the Victoria Park data set by setting the switches. Also, you can change the configuration and other switches in "run.m" to get different results. 
+Run the script "run.m", and you can see the demo of EKF-SLAM or IEKF-SLAM on the Victoria Park data set by setting the switches. Also, you can change the configurations and other switches in "run.m" to get different results. 
 ```
 **Note:**
 
@@ -18,7 +29,6 @@ It contains the filter codes for SLAM execution.
 * **updateEKF.m :** update step of EKF-SLAM.
 * **updateIEKF.m** and **iterate.m :** update step of IEKF-SLAM.
 * **augmentState.m :** augment step, that is add new features to the map.
-
 ## Utilities
 Models and tools for SLAM demo. 
 * **compound.m :** complete the estimating uncertain spatial relationships in robotics.
@@ -27,11 +37,3 @@ Models and tools for SLAM demo.
 * **obsModel.m :** observation model.
 
 **The demo shows on [youku](http://www.dwz.cn/iekfonVictoriaPark)**
-
-**The bibtex of this paper is :**</br>
-@article{许亚芳2015基于激光扫描和迭代贝叶斯策略的定位研究,</br>
-  title={基于激光扫描和迭代贝叶斯策略的定位研究},</br>
-  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
-  journal={计算机工程与设计},</br>
-  year={2015}</br>
-}
